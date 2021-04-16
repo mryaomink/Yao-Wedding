@@ -128,11 +128,8 @@ class YaominkHome extends StatelessWidget {
                     ],
                   ),
                 ),
-                SizedBox(
-                  height: 20.0,
-                ),
                 Padding(
-                  padding: const EdgeInsets.only(left: 80.0),
+                  padding: const EdgeInsets.only(left: 80.0, top: 10.0),
                   child: Column(
                     mainAxisAlignment: MainAxisAlignment.start,
                     crossAxisAlignment: CrossAxisAlignment.start,
