@@ -73,7 +73,57 @@ class YaominkHome extends StatelessWidget {
                     mainAxisAlignment: MainAxisAlignment.start,
                     crossAxisAlignment: CrossAxisAlignment.start,
                     children: [
-                      Container(
+                      InkWell(
+                        onTap: () {
+                          print('diklik');
+                        },
+                        child: Container(
+                            width: 60,
+                            height: 60,
+                            color: Colors.orange.withOpacity(0.70),
+                            child: Column(
+                              mainAxisAlignment: MainAxisAlignment.center,
+                              children: [
+                                Image.network(
+                                  'https://image.flaticon.com/icons/png/128/703/703213.png',
+                                  width: 36,
+                                  height: 36,
+                                ),
+                                Text('wedding'),
+                              ],
+                            )),
+                      ),
+                      SizedBox(
+                        width: 25.0,
+                      ),
+                      InkWell(
+                        onTap: () {
+                          print('diklik');
+                        },
+                        child: Container(
+                            width: 60,
+                            height: 60,
+                            color: Colors.orange.withOpacity(0.70),
+                            child: Column(
+                              mainAxisAlignment: MainAxisAlignment.center,
+                              children: [
+                                Image.network(
+                                  'https://image.flaticon.com/icons/png/128/2990/2990729.png',
+                                  width: 36,
+                                  height: 36,
+                                ),
+                                Text('photo')
+                              ],
+                            )),
+                      ),
+                      SizedBox(
+                        width: 25.0,
+                      ),
+                      InkWell(
+                        onTap: () {
+                          print('diklik');
+                        },
+                        child: Container(
                           width: 60,
                           height: 60,
                           color: Colors.orange.withOpacity(0.70),
@@ -81,48 +131,13 @@ class YaominkHome extends StatelessWidget {
                             mainAxisAlignment: MainAxisAlignment.center,
                             children: [
                               Image.network(
-                                'https://image.flaticon.com/icons/png/128/703/703213.png',
+                                'https://image.flaticon.com/icons/png/128/3163/3163203.png',
                                 width: 36,
                                 height: 36,
                               ),
-                              Text('wedding'),
+                              Text('mua')
                             ],
-                          )),
-                      SizedBox(
-                        width: 25.0,
-                      ),
-                      Container(
-                          width: 60,
-                          height: 60,
-                          color: Colors.orange.withOpacity(0.70),
-                          child: Column(
-                            mainAxisAlignment: MainAxisAlignment.center,
-                            children: [
-                              Image.network(
-                                'https://image.flaticon.com/icons/png/128/2990/2990729.png',
-                                width: 36,
-                                height: 36,
-                              ),
-                              Text('photo')
-                            ],
-                          )),
-                      SizedBox(
-                        width: 25.0,
-                      ),
-                      Container(
-                        width: 60,
-                        height: 60,
-                        color: Colors.orange.withOpacity(0.70),
-                        child: Column(
-                          mainAxisAlignment: MainAxisAlignment.center,
-                          children: [
-                            Image.network(
-                              'https://image.flaticon.com/icons/png/128/3163/3163203.png',
-                              width: 36,
-                              height: 36,
-                            ),
-                            Text('mua')
-                          ],
+                          ),
                         ),
                       ),
                     ],
