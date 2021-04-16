@@ -128,44 +128,45 @@ class YaominkHome extends StatelessWidget {
                     ],
                   ),
                 ),
-                Padding(
-                  padding: const EdgeInsets.only(left: 80.0, top: 10.0),
-                  child: Column(
-                    mainAxisAlignment: MainAxisAlignment.start,
-                    crossAxisAlignment: CrossAxisAlignment.start,
-                    children: [
-                      Text('Follow Us'),
-                      SizedBox(
-                        height: 10,
-                      ),
-                      Row(
-                        children: [
-                          Image.network(
-                            'https://image.flaticon.com/icons/png/128/733/733547.png',
-                            width: 24,
-                            height: 24,
-                          ),
-                          SizedBox(
-                            width: 10,
-                          ),
-                          Image.network(
-                            'https://image.flaticon.com/icons/png/128/1383/1383260.png',
-                            width: 24,
-                            height: 24,
-                          ),
-                          SizedBox(
-                            width: 10,
-                          ),
-                          Image.network(
-                            'https://image.flaticon.com/icons/png/128/2111/2111463.png',
-                            width: 24,
-                            height: 24,
-                          )
-                        ],
-                      )
-                    ],
-                  ),
-                )
+                // Social Media Section
+                // Padding(
+                //   padding: const EdgeInsets.only(left: 80.0, top: 10.0),
+                //   child: Column(
+                //     mainAxisAlignment: MainAxisAlignment.start,
+                //     crossAxisAlignment: CrossAxisAlignment.start,
+                //     children: [
+                //       Text('Follow Us'),
+                //       SizedBox(
+                //         height: 10,
+                //       ),
+                //       Row(
+                //         children: [
+                //           Image.network(
+                //             'https://image.flaticon.com/icons/png/128/733/733547.png',
+                //             width: 24,
+                //             height: 24,
+                //           ),
+                //           SizedBox(
+                //             width: 10,
+                //           ),
+                //           Image.network(
+                //             'https://image.flaticon.com/icons/png/128/1383/1383260.png',
+                //             width: 24,
+                //             height: 24,
+                //           ),
+                //           SizedBox(
+                //             width: 10,
+                //           ),
+                //           Image.network(
+                //             'https://image.flaticon.com/icons/png/128/2111/2111463.png',
+                //             width: 24,
+                //             height: 24,
+                //           )
+                //         ],
+                //       )
+                //     ],
+                //   ),
+                // )
               ],
             ),
           ],
